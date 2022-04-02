@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7454" started-at="2022-03-29T00:47:49 CDT" finished-at="2022-03-29T00:47:56 CDT">
+  <suite name="Default suite" duration-ms="10382" started-at="2022-04-01T22:37:21 CDT" finished-at="2022-04-01T22:37:31 CDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7454" started-at="2022-03-29T00:47:49 CDT" finished-at="2022-03-29T00:47:56 CDT">
+    <test name="Default test" duration-ms="10382" started-at="2022-04-01T22:37:21 CDT" finished-at="2022-04-01T22:37:31 CDT">
       <class name="test.ValidationTest">
-        <test-method status="PASS" signature="userShouldAddCategory()[pri:0, instance:test.ValidationTest@23348b5d]" name="userShouldAddCategory" duration-ms="7386" started-at="2022-03-29T00:47:49 CDT" finished-at="2022-03-29T00:47:56 CDT">
+        <test-method status="PASS" signature="userShouldAddCategory()[pri:0, instance:test.ValidationTest@17d677df]" name="userShouldAddCategory" duration-ms="10340" started-at="2022-04-01T22:37:21 CDT" finished-at="2022-04-01T22:37:31 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userShouldAddCategory -->

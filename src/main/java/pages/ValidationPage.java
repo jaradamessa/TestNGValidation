@@ -3,10 +3,12 @@ package pages;
 
 import static org.testng.Assert.assertEquals;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+import org.testng.Assert;
 
 
 
@@ -34,13 +36,29 @@ public void ValidPage(WebDriver driver) {
 	public void addCategory (String category) {
 		int generatedNum = generateRandomNumber(700);
 		Add_Category.sendKeys(category + generatedNum);
-		System.out.println(category+ generatedNum);
+		String duplicate = (category+ generatedNum);
+		System.out.println(duplicate);
 		 
 	}
+	
 	public void validDupicate() {
-		Validate_Dupicate.click();
 		
-	}
+		if(Add_Category.getText() != null)
+
+		{
+		Assert.assertTrue(true);
+		System.out.println("No duplicate");
+		}
+		else 
+		{ 
+			Assert.assertTrue(false);
+		}
+	
+		
+			
+		}
+		
+	
 	public void dropdownMonths(String name) {
 		Months_Dropdown.click();
 		selectFromDropdown(Months_Dropdown, name);

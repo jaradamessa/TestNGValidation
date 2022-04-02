@@ -27,7 +27,7 @@ public class ValidationTest {
 	validationpage.validDupicate();
 	validationpage.dropdownMonths(Months_Dropdown);
 	
-	//BrowserFactory.tearDown();
+	BrowserFactory.tearDown();
 	
 	}
 	

@@ -25,8 +25,8 @@ public class BasePage {
 		List<WebElement>opt = selectMonth.getOptions();
 		int size = opt.size();
 		for (int i=0; i<size; i++) {
-			String options = opt.get(i).getText();
-			System.out.println(options);
+			System.out.println(opt.get(i).getText());
+			//String options =System.out.println(options);
 		}
 		
 }
